@@ -12,6 +12,10 @@ st.markdown("""
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
     * { font-family: 'Inter', sans-serif; }
+html, body, [data-testid="stAppViewContainer"], [data-testid="stHeader"] {
+    background-color: #0a0a0a !important;
+    color: #ffffff !important;
+}
 
     .main-title {
         font-size: 9rem;
