@@ -101,7 +101,7 @@ st.markdown("""
 
 st.markdown("""
     <div style='padding: 3rem 0 1.5rem 0;'>
-        <p style='font-size:10rem; font-weight:900; color:#ffffff; text-align:center; letter-spacing:8px; text-transform:uppercase; margin:0; padding:0;'>Oncovix</p>
+        <p style='font-size:3.5rem; font-weight:900; color:#ffffff; text-align:center; letter-spacing:8px; text-transform:uppercase; margin:0; padding:0;'>Oncovix</p>
         <p style='font-size:1rem; color:#888888; text-align:center; letter-spacing:3px; text-transform:uppercase; margin-top:0.5rem;'>AI-Powered Personalized Cancer Immunotherapy Predictor</p>
         <p style='font-size:0.8rem; color:#555555; text-align:center; letter-spacing:3px; text-transform:uppercase; margin-top:0.3rem;'>Brinda Patel</p>
     </div>
