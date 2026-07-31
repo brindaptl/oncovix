@@ -1,3 +1,10 @@
+# ============================================
+# Oncovix - AI Cancer Immunotherapy Predictor
+# Created by Brinda Patel, 2026
+# All rights reserved
+# Creative Commons Attribution-NonCommercial 4.0
+# ============================================
+
 import streamlit as st
 import plotly.express as px
 import pandas as pd
@@ -9,16 +16,23 @@ st.set_page_config(
 )
 
 st.markdown("""
+    <head>
+        <meta property="og:title" content="Oncovix — AI Cancer Immunotherapy Predictor"/>
+        <meta property="og:description" content="AI-powered tool that analyzes tumor mutation profiles across 30 cancer types to recommend personalized immunotherapy treatments."/>
+        <meta property="og:image" content="https://raw.githubusercontent.com/brindaptl/oncovix/main/preview.png"/>
+    </head>
+""", unsafe_allow_html=True)
+
+st.markdown("""
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
     * { font-family: 'Inter', sans-serif; }
-html, body, [data-testid="stAppViewContainer"], [data-testid="stHeader"] {
-    background-color: #0a0a0a !important;
-    color: #ffffff !important;
-}
-
+    html, body, [data-testid="stAppViewContainer"], [data-testid="stHeader"] {
+        background-color: #0a0a0a !important;
+        color: #ffffff !important;
+    }
     .main-title {
-        font-size: 9rem;
+        font-size: 5rem;
         font-weight: 900;
         color: #ffffff;
         text-align: center;
@@ -28,7 +42,7 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stHeader"] {
         padding-bottom: 0;
     }
     .subtitle {
-        font-size: 1rem;
+        font-size: 0.85rem;
         color: #888888;
         text-align: center;
         letter-spacing: 3px;
@@ -36,7 +50,7 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stHeader"] {
         margin-top: 0.5rem;
     }
     .built-by {
-        font-size: 0.8rem;
+        font-size: 0.75rem;
         color: #555555;
         text-align: center;
         letter-spacing: 3px;
@@ -57,7 +71,9 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stHeader"] {
         padding: 20px;
         border-radius: 8px;
         border-left: 3px solid #a8a8a8;
-        font size: 0.8rem;
+        margin-bottom: 12px;
+        color: #ffffff;
+        font-size: 0.8rem;
     }
     .footer {
         text-align: center;
@@ -74,10 +90,10 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stHeader"] {
         text-transform: uppercase;
         font-weight: 600;
     }
-div[data-testid="stMetric"] {
+    div[data-testid="stMetric"] {
         font-size: 0.75rem;
     }
-div[data-testid="stMetricValue"] {
+    div[data-testid="stMetricValue"] {
         font-size: 1.2rem !important;
     }
     </style>
@@ -85,7 +101,7 @@ div[data-testid="stMetricValue"] {
 
 st.markdown("""
     <div style='padding: 3rem 0 1.5rem 0;'>
-        <p style='font-size:3rem; font-weight:900; color:#ffffff; text-align:center; letter-spacing:8px; text-transform:uppercase; margin:0; padding:0;'>Oncovix</p>
+        <p style='font-size:10rem; font-weight:900; color:#ffffff; text-align:center; letter-spacing:8px; text-transform:uppercase; margin:0; padding:0;'>Oncovix</p>
         <p style='font-size:1rem; color:#888888; text-align:center; letter-spacing:3px; text-transform:uppercase; margin-top:0.5rem;'>AI-Powered Personalized Cancer Immunotherapy Predictor</p>
         <p style='font-size:0.8rem; color:#555555; text-align:center; letter-spacing:3px; text-transform:uppercase; margin-top:0.3rem;'>Brinda Patel</p>
     </div>
@@ -301,9 +317,3 @@ st.markdown("""
         Built with Python, Scikit-learn and Streamlit. For research and educational purposes only.
     </div>
 """, unsafe_allow_html=True)
-# ============================================
-# Oncovix - AI Cancer Immunotherapy Predictor
-# Created by Brinda Patel, 2026
-# All rights reserved
-# Creative Commons Attribution-NonCommercial 4.0
-# ============================================
