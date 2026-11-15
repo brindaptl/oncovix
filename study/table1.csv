@@ -1,0 +1,21 @@
+variable,level,n,percent
+Sex,Male,1033,62.2
+Sex,Female,627,37.8
+Age group,61-70,499,30.1
+Age group,50-60,416,25.1
+Age group,>71,412,24.8
+Age group,31-50,283,17.0
+Age group,<30,50,3.0
+ICI type,PD-1/PDL-1,1306,78.7
+ICI type,Combo,255,15.4
+ICI type,CTLA4,99,6.0
+Cancer type,Non-Small Cell Lung Cancer,350,21.1
+Cancer type,Melanoma,320,19.3
+Cancer type,Bladder Cancer,215,13.0
+Cancer type,Renal Cell Carcinoma,151,9.1
+Cancer type,Head and Neck Cancer,139,8.4
+Cancer type,Esophagogastric Cancer,126,7.6
+Cancer type,Glioma,117,7.0
+Cancer type,Colorectal Cancer,110,6.6
+Cancer type,Cancer of Unknown Primary,88,5.3
+Cancer type,Breast Cancer,44,2.7
